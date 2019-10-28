@@ -2,9 +2,11 @@ const express = require('express');
 const graphqlHTTP = require('express-graphql');
 const schema = require('./schema/schema');
 const mongoose = require('mongoose');
+const cors = require('cors');
 
 const app = express();
 
+app.use(cors());
 
 mongoose.connect("mongodb://lewa:11toMtom.@ds139768.mlab.com:39768/graph-book-db");
 mongoose.connection.once('open',() => {
