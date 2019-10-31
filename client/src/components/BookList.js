@@ -27,7 +27,7 @@ displayBooks(){
  render(){
 
  	 return (
-	    <div id="booklist">
+	    <div id="book-list">
 	      <h3>My Reading List</h3>
 	      <ul>
 	       {this.displayBooks()}

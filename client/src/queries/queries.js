@@ -23,6 +23,7 @@ const getBookQuery = gql`
 		book(id: $id){
 			id
 			genre
+			name
 			author{
 				id
 				name
