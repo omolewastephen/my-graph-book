@@ -66,7 +66,7 @@ submitForm(e){
 					</select>
 				</div>
 
-				<button>Add book</button>
+				<button>+</button>
 		  </form>
 	    </div>
 	  );

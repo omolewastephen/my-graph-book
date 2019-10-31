@@ -28,8 +28,7 @@ displayBooks(){
 
  	 return (
 	    <div id="book-list">
-	      <h3>My Reading List</h3>
-	      <ul>
+	      <ul id="ul-list">
 	       {this.displayBooks()}
 	      </ul>
 	      <BookDetails bookid={this.state.selected}/>

@@ -25,7 +25,7 @@ body {
 	padding:0px;
 }
 
-#book-list li{
+#book-list #ul-list li{
 	display: inline-block;
 	margin: 12px;
 	padding: 10px;
@@ -36,5 +36,56 @@ body {
 	color: #444;
 }
 
+form{
+	background-color: white;
+	padding: 20px;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 400px;
+}
 
+form .field{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
 
+form label{
+	text-align: right;
+	padding: 6px;
+}
+
+form select, form input{
+	margin: 4px;
+	padding: 6px;
+	box-sizing: border-box;
+}
+
+form button{
+	color: white;
+	font-size: 2em;
+	background-color: green;
+	border:0;
+	padding: 0 10px;
+	border-radius: 50%;
+	cursor:pointer;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;	
+}
+
+#book-details{
+	position: fixed;
+	top:0px;
+	right: 0px;
+	width: 40%;
+	height: 100%;
+	background-color: green;
+	padding: 30px;
+	overflow: auto;
+	box-shadow: -2px -3px 5px rgba(0,0,0,.5);
+	box-sizing: border-box;
+	color: white;
+
+}
